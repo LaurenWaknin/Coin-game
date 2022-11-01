@@ -96,14 +96,13 @@ function draw()
         textSize(20);
         text("Game Over. Press space to continue", 50,50); 
     }
-
+    
     pop();
 
     // Draws game character
     drawGameChar();
-    //checks if player falls below ground
     checkPlayerDie();
-    //score and heart (life)
+    
     fill(255);
     noStroke();
     textSize(20);
@@ -212,7 +211,7 @@ function keyReleased()
 // Game character 
 // ------------------------------
 
-// Function that draws the character
+// Function that draws the game character
 function drawGameChar()
 {
     
@@ -592,7 +591,7 @@ function checkCanyon(t_canyon)
     }
 }
 
-// Function to move flagpole
+// Function to raise flagpole
 
 function renderFlagpole()
 {
@@ -615,7 +614,7 @@ function renderFlagpole()
     pop();
 }
 
-// Function to check if character reached flagpole
+// Function to check if character reached flagpole 
 
 function checkFlagpole()
 {
@@ -627,7 +626,7 @@ function checkFlagpole()
     }
 }
 
-// Function to check if character fell 
+// Function to check if player fell
 
 function checkPlayerDie()
 {
@@ -642,8 +641,7 @@ function checkPlayerDie()
     }
 }
 
-//Fubction that removes hearts if character dies
-
+//Draws hearts depending on amount of lives     
 function drawHeart()
 {   if(lives >= 3)
     {
@@ -689,7 +687,7 @@ function startGame()
     // Variable to store the real position of the character in the game. Needed for collision detection
     gameChar_world_x = gameChar_x - scrollPos;
 
-    // Boolean variables to control the movement of the game character
+    // Boolean variables to control the movement of the character
     isLeft = false;
     isRight = false;
     isFalling = false;
