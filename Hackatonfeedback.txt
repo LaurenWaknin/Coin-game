@@ -1,0 +1,10 @@
+
+
+Hello Lauren This is your Hackaton Feedback.
+I enjoyed your project was fun to jump, collect and avoid to died. I liked that the game restarted when your
+fall that was a nice feature. I understand you need more time to keep working in a game that involves a lot
+of complexity to develop but the first impression of it is a very good job.
+
+Good utilizations of functions, object and arrays methods all over the code. 
+
+Good job and congratulations.
