@@ -1,5 +1,6 @@
 # Coin-game
-Try to gather as many coins without falling in the canions
+
+Try to collect as many coins as possible without falling into the canions
 
 -Use the left and right arrows to turn
 
